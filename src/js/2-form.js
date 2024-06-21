@@ -33,8 +33,6 @@ function handlerSubmit(evt) {
         return;
     }
     console.log(formData);
-    formData.email = '';
-    formData.message = '';
     localStorage.removeItem('feedback-form-state')
     userForm.reset();
 }
