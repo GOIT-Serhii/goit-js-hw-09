@@ -34,8 +34,8 @@ function handlerSubmit(evt) {
     }
     console.log(formData);
     localStorage.removeItem('feedback-form-state')
-    formData.email = '';
-    formData.message = '';
+    formData.email = "";
+    formData.message = "";
     userForm.reset();
 }
 
