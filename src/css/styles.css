@@ -40,9 +40,11 @@
 }
 
 .input-email {
-  height: 40px;
+  height: 32px;
   border: 1px solid #808080;
   border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
@@ -57,6 +59,8 @@
 .input-message {
     border: 1px solid #808080;
     border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
