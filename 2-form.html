@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 3</title>
     
+    
     <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-793dd55d.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-b047e3da.css">
   </head>
   <body>
     <section>
@@ -16,15 +18,24 @@
     </section>
 
     <form class="feedback-form" autocomplete="off">
-      <label>
+      <label class="label-text">
         Email
-        <input class="js-input-email" type="email" name="email" autofocus />
+        <input
+          class="input-email js-input-email"
+          type="email"
+          name="email"
+          autofocus
+        />
       </label>
-      <label>
+      <label class="label-text">
         Message
-        <textarea class="js-input-message" name="message" rows="8"></textarea>
+        <textarea
+          class="input-message js-input-message"
+          name="message"
+          rows="8"
+        ></textarea>
       </label>
-      <button type="submit">Submit</button>
+      <button class="btn-sbt" type="submit">Submit</button>
     </form>
   </body>
 </html>
